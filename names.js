@@ -1,12 +1,17 @@
-function fullName(firstName, lastName) 
-{ 
-    return
-    {
+/*function fullName(firstName, lastName) {
+  return {
     firstName,
-    lastName
-    }
-    ;
+    lastName,
+  };
 }
 
 module.exports = fullName;
+
+*/
+
+const fullName = (firstName, lastName) => ({firstName, lastName});
+
+module.exports = fullName;
+
+
 
